@@ -21,7 +21,7 @@ cnn_2inputs.py
 
 https://drive.google.com/file/d/1Te00ySSjyifNb3rv3bsYRRIKBA_J5mPt/view?usp=sharing
 
-2. Execute this command:
+2. Execute this command: python CNN_words_entities.py
 
-  python CNN_words_entities.py
+  
 
