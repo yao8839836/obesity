@@ -19,9 +19,11 @@ cnn_2inputs.py
 
 1. Download MIMIC III word vector file and uncompress it in /data.
 
-https://drive.google.com/file/d/1Te00ySSjyifNb3rv3bsYRRIKBA_J5mPt/view?usp=sharing
+     https://drive.google.com/file/d/1Te00ySSjyifNb3rv3bsYRRIKBA_J5mPt/view?usp=sharing
 
-2. Execute this command: python CNN_words_entities.py
+2. Execute this command: 
+   
+     python CNN_words_entities.py
 
   
 
