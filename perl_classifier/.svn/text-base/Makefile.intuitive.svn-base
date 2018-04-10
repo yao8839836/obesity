@@ -1,0 +1,66 @@
+TARGET=intuitive
+#ANNOTATION_TEMPLATE = ${INTUITIVE_ANNOTATION_TEMPLATE}
+
+#GROUND_ANNOTATIONS=${TEXTUAL_ANNOTATIONS}
+#GROUND_ANNOTATIONS=${INTUITIVE_ANNOTATIONS}
+
+
+## stage 1 (Q)
+
+intuitive/questionable_disease_name_truths_no_fam.xml: ${RECORDS} extract_questionable_disease_names.pl  disease_aliases.pl
+	cat $< \
+	| sed 's/\bPAO?D\b/PVD/g' \
+	| perl -pe 's/([A-Za-z])-\n/\1/;' \
+	| perl -W -p \
+		-e '$$r += (s/\b(D[rR]s?\.?(([ ,]+[A-Z]([a-z]+|\.?))+|([ ,]+[A-Z]([A-Z]+|\.?))+)|((([A-Z]([A-Z]*|[a-z]*|\.))[ ,]+)+(M\.D\.?|MD)( , PH\.D\.)?( [A-Z]+[0-9]+)?))/ /g);' \
+		-e 'END{ print STDERR "$$0: $$r doctor names replaced\n";}' \
+	| perl -W -p \
+		-e '$$r += (s/\b((Mr|Mrs|Ms)\.?( [A-Z]([a-z]+|\.?))+)/ /g);' \
+		-e 'END{ print STDERR "$$0: $$r patient names replaced\n";}' \
+	| ./strip_family.pl intuitive \
+	| tr -s '[:space:]' ' ' \
+	| ./strip_additional_family.pl intuitive \
+	| ./extract_questionable_disease_names.pl intuitive  intuitive/questionable_stripped_no_fam.xml \
+	> $@
+	
+# 	| perl -pe 's/\b([a-z]+)\s+(disease)/\1 \2 \1_\2/g;' \
+
+	
+intuitive/questionable_stripped_no_fam.xml: intuitive/questionable_disease_name_truths_no_fam.xml
+
+## stage 2 (N)
+
+intuitive/piped_negated_disease_name_truths_no_fam.xml: intuitive/questionable_stripped_no_fam.xml  extract_negated_disease_names.pl  disease_aliases.pl
+	cat  $< \
+	| tr -s '[:space:]' ' ' \
+	| ./extract_negated_disease_names.pl intuitive  intuitive/negated_stripped_no_fam.xml \
+	> $@
+	
+intuitive/negated_stripped_no_fam.xml: intuitive/piped_negated_disease_name_truths_no_fam.xml
+
+
+	
+# ## stage 3 (Y)
+	
+intuitive/piped_disease_name_truths_no_fam.xml: intuitive/negated_stripped_no_fam.xml  extract_disease_names.pl disease_aliases.pl
+	cat $< \
+	| tr -s '[:space:]' ' ' \
+	| ./extract_disease_names.pl intuitive \
+	> $@
+
+
+# ## decision
+#
+INTUITIVE_ANNOTATION_FILES= intuitive/questionable_disease_name_truths_no_fam.xml intuitive/piped_negated_disease_name_truths_no_fam.xml  intuitive/piped_disease_name_truths_no_fam.xml 
+
+
+output/system_intuitive_annotation.xml: ${INTUITIVE_ANNOTATION_TEMPLATE} ${INTUITIVE_ANNOTATION_FILES}
+	perl -W \
+		-e 'require "judgements.pl";' \
+		-e 'my $$glob = merge_judgements("$<");' \
+		-e 'print_judgements(project_judgements($$glob, merge_judgements(@ARGV),"N"));' ${INTUITIVE_ANNOTATION_FILES} \
+	> $@
+
+
+#		-e 'my $$glob = parse_global_truth("$<");' \
+#		-e 'print_judgements(merge_judgements(@ARGV));' ${ANNOTATION_FILES} \

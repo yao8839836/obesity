@@ -1,0 +1,91 @@
+README
+
+This software semantically annotates medical discharge summaries for 
+obesity and 15 most common co-morbidities. It is developed for the i2b2 
+Obesity Challenge, and it is made available to challenge participants 
+exclusively, for further information see COPYING. This is the system used
+by the team referred to as 'Tikk et al.'.
+
+The source code is messy and not well-documented, also comments may not 
+conform to the actual revision of the code. If you want to understand
+what it is doing, you probably would want to read the workshop paper or
+the workshop presentation first.
+
+The code is tried only on Linux based systems. 
+
+
+REQUIREMENTS:
+-------------
+
+perl, make, XML::Simple
+
+
+INSTALLATION:
+-------------
+
+No installation required.
+
+
+USAGE:
+------
+
+To perform annotation of documents file specified in Makefile:
+
+$ make all
+
+This will produce annotation files and an easy-to-understand HTML file 
+into the directory ./output/ Temporary files are written to ./textual and
+./intuitive repectively.
+
+
+FILES:
+------
+
+Makefile
+        Edit this file to specify input files (documents and annotation 
+        template). All files should be i2b2 format.
+
+de_abbrev.pl
+        Resolve some medical abbreviations wich are usually written with 
+        periods inside them.
+
+disease_aliases.pl
+        List of textual/intuitive clue terms and exceptions to be used by
+        the classifiers to suggest YNQ labels.
+
+extract_disease_names.pl
+        Classifier for Y labels.
+
+extract_negated_disease_names.pl
+        Negated context splitter and classifier for N labels.
+        
+extract_questionable_disease_names.pl
+        Uncertain context splitter and classifier for Q labels.
+
+i2b2html.pl
+        Script to produce human readable HTML file with text and 
+        annotations.
+
+judgements.pl
+        Utilities to parse, merge, and project judgments from and to i2b2 
+        XML format.
+
+strip_family.pl
+        Splitter for family history elements.
+
+strip_additional_family.pl
+        Splitter for family history context outside 'FAMILY HISTORY'
+        elements.
+
+
+SEE ALSO:
+---------
+
+i2b2 Obesity Challenge
+https://i2b2.org/NLP
+
+
+QUESTIONS:
+----------
+
+Illes Solt <illes.solt@gmail.com>

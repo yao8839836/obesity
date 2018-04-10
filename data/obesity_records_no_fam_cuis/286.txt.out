@@ -1,0 +1,403 @@
+00000000|MMI|16.09|Chest Pain|C0008031|[sosy]|["CHEST PAIN"-tx-1-"CHEST PAIN"-noun-0]|TX|66/10|C10.597.617.192;C23.888.592.612.233
+00000000|MMI|7.28|Signature|C1519316|[inpr]|["Signed"-tx-1-"Signed"-noun-0]|TX|[79/6],[135/6]|
+00000000|MMI|7.28|signed - ParticipationSignature|C1561610|[inpr]|["signed"-tx-1-"Signed"-noun-0]|TX|[79/6],[135/6]|
+00000000|MMI|3.65|Report status|C0586177|[fndg]|["Report status"-tx-1-"Report Status"-noun-0]|TX|120/13|
+00000000|MMI|3.64|10 - 12|C3843787|[fndg]|["10 - 12"-tx-1-"10 12"-fraction-0]|TX|41/2,52/2|
+00000000|MMI|3.63|Admission date:Time Stamp -- Date and Time:Point in time:^Patient:Quantitative|C2598112|[clna]|["Admission date"-tx-1-"Admission Date"-noun-0]|TX|94/14|
+00000000|MMI|3.63|Date of admission|C1302393|[tmco]|["Admission date"-tx-1-"Admission Date"-noun-0]|TX|94/14|
+00000000|MMI|3.59|Pyrexia of unknown origin (excl puerperal)|C0856281|[sosy]|["puo"-tx-1-"PUO"-noun-0]|TX|12/3|
+00000000|MMI|3.48|Chest pain:Finding:Point in time:^Patient:Ordinal|C2926613|[clna]|["Chest pain"-tx-1-"CHEST PAIN"-noun-0]|TX|66/10|
+00000000|MMI|3.46|Diagnostic interview schedule|C0451119|[inpr]|["DIS"-tx-1-"DIS"-noun-0]|TX|88/3|
+00000000|MMI|3.46|Discontinued|C1444662|[fndg]|["DIS"-tx-1-"DIS"-noun-0]|TX|88/3|
+00000000|MMI|177.54|Postoperative Period|C0032790|[tmco]|["Postoperative"-tx-43-"postoperative"-adj-0,"Postoperative"-tx-32-"postoperative"-noun-0,"Postoperative"-tx-26-"postoperative"-noun-0,"Postoperative"-tx-24-"postoperative"-noun-0,"Postoperative"-tx-23-"postoperative"-noun-0,"Postoperative"-tx-21-"postoperative"-noun-0,"Postoperative"-tx-20-"postoperative"-noun-0,"Postoperative"-tx-15-"postoperative"-noun-0,"Postoperative"-tx-14-"postoperative"-adj-0]|TX|3289/13;2681/13;2494/13;2322/13;2251/13;2098/13;2072/13;1710/13;1620/13|E04.614.750;N02.421.585.753.750
+00000000|MMI|93.50|Togo|C0040363|[geoa]|["TO"-tx-80-"to"-adv-0,"TO"-tx-76-"to"-adv-0,"TO"-tx-23-"to"-adv-0]|TX|[4333/2],[4365/2],[4441/2];4076/2;2295/2|Z01.058.290.190.800
+00000000|MMI|93.50|Tryptophanase|C0041260|[aapp,enzy]|["TO"-tx-80-"to"-adv-0,"TO"-tx-76-"to"-adv-0,"TO"-tx-23-"to"-adv-0]|TX|[4333/2],[4365/2],[4441/2];4076/2;2295/2|D08.811.520.224.800
+00000000|MMI|79.68|Patient Discharge|C0030685|[hlca]|["Discharge"-tx-44-"discharge"-noun-0,"Discharge"-tx-40-"discharge"-noun-0,"Discharge"-tx-37-"discharge"-noun-0,"Discharge"-tx-2-"DISCHARGE"-noun-0]|TX|3320/9;3036/9;2936/9;122/9|E02.204.125;E02.760.400.610;N02.421.192.125;N02.421.585.400.610;N04.590.233.727.210.125
+00000000|MMI|58.76|Lopressor|C0700776|[orch,phsu]|["Lopressor"-tx-63-"Lopressor"-noun-0,"Lopressor"-tx-22-"Lopressor"-noun-0,"Lopressor"-tx-18-"Lopressor"-noun-0]|TX|3757/9;2181/9;1949/9|D02.033.100.624.698.573;D02.033.755.624.698.573;D02.092.063.624.698.573
+00000000|MMI|51.95|Diurese|C0719972|[orch,phsu]|["Diurese"-tx-33-"diuresing"-verb-0,"Diurese"-tx-30-"diuresing"-noun-0]|TX|2744/9;2628/9|D02.886.590.700.135.261.476.716;D02.886.655.500.261.476.716;D03.438.174.261.476.716
+00000000|MMI|49.73|Dominican Republic|C0013014|[geoa]|["DR"-tx-78-"Dr"-noun-0,"DR"-tx-77-"Dr"-noun-0,"DR"-tx-76-"Dr"-noun-0]|TX|4203/2;4146/2;4109/2|Z01.107.084.900.300;Z01.639.880.300
+00000000|MMI|43.79|Patients|C0030705|[podg]|["*^patient"-tx-36-"patient"-noun-0,"*^patient"-tx-35-"patient"-noun-0,"*^patient"-tx-11-"patient"-noun-0,"*^patient"-tx-7-"patient"-noun-0,"*^patient"-tx-5-"patient"-noun-0]|TX|2889/7;2803/7;1322/7;642/7;467/7|M01.643
+00000000|MMI|40.12|Physicians|C0031831|[prog]|["DR"-tx-78-"Dr"-noun-0,"DR"-tx-77-"Dr"-noun-0,"DR"-tx-76-"Dr"-noun-0]|TX|4203/2;4146/2;4109/2|M01.526.485.810;N02.360.810
+00000000|MMI|39.70|Rehabilitation therapy|C0034991|[topp]|["Rehabilitation"-tx-45-"rehabilitation"-noun-0,"Rehab"-tx-36-"rehab"-noun-0,"Rehabilitation"-tx-35-"rehabilitation"-noun-0]|TX|3379/14;2858/5;2839/14|E02.831;H02.403.680.600;N02.421.784
+00000000|MMI|39.25|Captopril|C0006938|[aapp,phsu]|["CAPTOPRIL"-tx-22-"Captopril"-noun-0,"CAPTOPRIL"-tx-18-"captopril"-noun-0]|TX|2149/9;1963/9|D12.125.072.401.623.270
+00000000|MMI|33.00|Coronary Arteriosclerosis|C0010054|[dsyn]|["coronary artery disease"-tx-3-"coronary artery disease"-noun-0,"coronary artery disease"-tx-1-"Coronary artery disease"-noun-0]|TX|265/23;86/23|C14.280.647.250.260;C14.907.137.126.339;C14.907.585.250.260
+00000000|MMI|33.00|Coronary Artery Disease|C1956346|[dsyn]|["CORONARY ARTERY DISEASE"-tx-3-"coronary artery disease"-noun-0,"CORONARY ARTERY DISEASE"-tx-1-"Coronary artery disease"-noun-0]|TX|265/23;86/23|C14.280.647.250.260;C14.907.137.126.339;C14.907.585.250.260
+00000000|MMI|32.99|Creatinine|C0010294|[bacs,orch]|["CREATININE"-tx-40-"creatinine"-noun-0,"CREATININE"-tx-6-"creatinine"-noun-0]|TX|3135/10;617/10|D03.383.129.308.207
+00000000|MMI|32.70|Primary Care Physicians|C0033131|[prog]|["Primary Care Physician"-tx-80-"primary care physician"-noun-0,"Primary Care Physician"-tx-79-"primary care physician"-noun-0]|TX|4492/22;4222/22|M01.526.485.810.800;N02.360.810.795
+00000000|MMI|32.61|Hematocrit procedure|C0018935|[lbpr]|["Hematocrit"-tx-65-"hematocrit"-noun-0,"Hematocrit"-tx-41-"hematocrit"-noun-0]|TX|3821/10;3201/10|E01.370.225.625.400;E05.200.625.400;G09.188.370.374
+00000000|MMI|32.61|Coronary Artery Bypass Surgery|C0010055|[topp]|["CABG"-tx-8-"CABG"-noun-0,"CABG"-tx-2-"CABG"-noun-0]|TX|987/4;155/4|E04.100.376.719.332;E04.100.814.868.750;E04.928.220.520.220
+00000000|MMI|32.30|Pain|C0030193|[sosy]|["PAIN"-tx-59-"pain"-noun-0,"PAIN"-tx-47-"pain"-noun-0]|TX|3713/4;3461/4|C10.597.617;C23.888.592.612;F02.830.816.444;G11.561.600.810.444
+00000000|MMI|31.15|Beds|C0004916|[mnob]|["Bed"-tx-80-"bed"-noun-0,"Bed"-tx-36-"bed"-noun-0,"Bed"-tx-16-"bed"-noun-0]|TX|4426/3;2864/3;1858/3|E07.325.220
+00000000|MMI|29.46|Consultation|C0009818|[hlca]|["consulted"-tx-34-"consulted"-verb-0,"consulted"-tx-24-"consulted"-verb-0]|TX|2777/9;2355/9|N04.452.758.849
+00000000|MMI|27.22|Abortion consent:Finding:Point in time:^Patient:Document|C2360836|[clna]|["Patient"-tx-36-"patient"-noun-0,"Patient"-tx-35-"patient"-noun-0,"Patient"-tx-11-"patient"-noun-0,"Patient"-tx-7-"patient"-noun-0,"Patient"-tx-5-"patient"-noun-0]|TX|2889/7;2803/7;1322/7;642/7;467/7|
+00000000|MMI|27.22|Hysterectomy consent:Finding:Point in time:^Patient:Document|C2360838|[clna]|["Patient"-tx-36-"patient"-noun-0,"Patient"-tx-35-"patient"-noun-0,"Patient"-tx-11-"patient"-noun-0,"Patient"-tx-7-"patient"-noun-0,"Patient"-tx-5-"patient"-noun-0]|TX|2889/7;2803/7;1322/7;642/7;467/7|
+00000000|MMI|27.22|Sterilization consent:Finding:Point in time:^Patient:Document|C2360840|[clna]|["Patient"-tx-36-"patient"-noun-0,"Patient"-tx-35-"patient"-noun-0,"Patient"-tx-11-"patient"-noun-0,"Patient"-tx-7-"patient"-noun-0,"Patient"-tx-5-"patient"-noun-0]|TX|2889/7;2803/7;1322/7;642/7;467/7|
+00000000|MMI|27.22|To|C1883351|[qlco]|["To"-tx-80-"to"-adv-0,"To"-tx-76-"to"-adv-0,"To"-tx-23-"to"-adv-0]|TX|[4333/2],[4365/2],[4441/2];4076/2;2295/2|
+00000000|MMI|26.66|Coronary heart disease|C0010068|[dsyn]|["Coronary (artery) disease"-tx-3-"coronary artery disease"-noun-0,"Coronary (artery) disease"-tx-1-"Coronary artery disease"-noun-0]|TX|265/23;86/23|C14.280.647.250;C14.907.585.250
+00000000|MMI|26.57|Diltiazem|C0012373|[orch,phsu]|["DILTIAZEM"-tx-55-"Diltiazem"-noun-0,"DILTIAZEM"-tx-22-"diltiazem"-noun-0]|TX|3579/9;2199/9|D03.438.079.150
+00000000|MMI|26.15|Needs|C0027552|[qlco]|["Needed"-tx-73-"needed"-adj-0,"Needed"-tx-57-"needed"-adj-0]|TX|3994/6;3639/6|N03.349.380.420;N05.300.450
+00000000|MMI|26.11|Mongolia|C0026410|[geoa]|["MG"-tx-71-"mg"-noun-0,"MG"-tx-63-"mg"-noun-0]|TX|3945/2;3770/2|Z01.252.474.651
+00000000|MMI|25.94|Aorta|C0003483|[bpoc]|["AORTA"-tx-12-"aorta"-noun-0,"AORTA"-tx-8-"aorta"-noun-0]|TX|1467/5;1089/5|A07.231.114.056
+00000000|MMI|24.11|White Blood Cell Count procedure|C0023508|[lbpr]|["Blood Cell Count, White"-tx-41-"White blood cell count"-noun-0]|TX|3168/22|E01.370.225.500.195.107.595;E01.370.225.625.107.595;E05.200.500.195.107.595;E05.200.625.107.595;E05.242.195.107.595;G04.170.107.595;G09.188.105.595
+00000000|MMI|23.12|Patient Monitoring|C0030695|[hlca]|["monitor"-tx-80-"monitor"-verb-0]|TX|[4336/7],[4444/7]|E01.370.520
+00000000|MMI|22.36|Surgical aspects|C0038895|[ftcn]|["surgery"-tx-8-"surgery"-noun-0]|TX|910/7|x.x.x.x.x.x.x
+00000000|MMI|22.35|Percutaneous Transluminal Coronary Angioplasty|C2936173|[topp]|["PTCA"-tx-3-"PTCA"-noun-0]|TX|301/4|E02.148.050.060.100;E04.100.376.719.100;E04.100.814.529.124.060.100;E04.100.814.529.968.050;E04.502.382.124.060.100;E04.502.382.968.050;E04.928.220.520.100;E05.157.016.060.100
+00000000|MMI|20.95|International Normalized Ratio|C0525032|[lbpr]|["INR"-tx-42-"INR"-noun-0]|TX|3239/3|E01.370.225.625.115.320;E05.200.625.115.320
+00000000|MMI|20.95|Weaning|C0043084|[fndg]|["Weaned"-tx-17-"weaned"-verb-0]|TX|1917/6|G07.203.650.220.500.750;G07.203.650.593.762;G07.700.620.762
+00000000|MMI|20.16|Hospitals|C0019994|[hcro,mnob]|["HOSPITAL"-tx-23-"hospital"-noun-0,"HOSPITAL"-tx-5-"hospital"-noun-0]|TX|2308/8;499/8|N02.278.421
+00000000|MMI|19.94|Rehabilitation aspects|C0034992|[ftcn]|["Rehabilitation"-tx-45-"rehabilitation"-noun-0,"Rehabilitation"-tx-35-"rehabilitation"-noun-0]|TX|3379/14;2839/14|x.x.x
+00000000|MMI|19.88|Back|C0004600|[blor]|["BACK"-tx-31-"back"-adj-0,"BACK"-tx-18-"back"-adj-0]|TX|2647/4;1941/4|A01.923.176
+00000000|MMI|19.70|Universities|C0041740|[mnob,orgt]|["University"-tx-82-"University"-noun-0,"University"-tx-7-"University"-noun-0]|TX|4587/10;676/10|I02.783.830
+00000000|MMI|19.37|Nexium|C0939400|[orch,phsu]|["Nexium"-tx-71-"Nexium"-noun-0]|TX|3935/6|D02.886.640.074.500.500;D03.383.725.024.500.500;D03.438.103.034.500.500
+00000000|MMI|19.20|Nebraska (geographic location)|C0027523|[geoa]|["Nebraska"-tx-82-"Nebraska"-noun-0]|TX|4601/8|Z01.107.567.875.510.520
+00000000|MMI|19.16|Daily|C0332173|[tmco]|["Daily"-tx-80-"daily"-adv-0,"Daily"-tx-71-"daily"-adv-0,"/day"-tx-69-"day"-noun-0,"Daily"-tx-61-"daily"-adv-0,"Daily"-tx-49-"daily"-adv-0]|TX|4316/5;3953/5;3924/3;3746/5;3496/5|
+00000000|MMI|17.80|Cardiac Catheterization Procedures|C0018795|[hlca]|["Cardiac catheterisation"-tx-7-"cardiac catheterization"-noun-0]|TX|698/23|E01.370.370.380.140;E02.148.442;E05.157.250
+00000000|MMI|17.80|Electrocardiogram|C0013798|[fndg]|["EKG"-tx-6-"EKG"-noun-0]|TX|569/3|E01.370.370.380.240;E01.370.405.240
+00000000|MMI|17.80|Electrocardiography|C1623258|[diap]|["EKG"-tx-6-"EKG"-noun-0]|TX|569/3|E01.370.370.380.240;E01.370.405.240
+00000000|MMI|17.80|Nitroglycerin|C0017887|[orch,phsu]|["nitroglycerine"-tx-17-"Nitroglycerin"-noun-0]|TX|1899/13|D02.033.800.421.560;D02.640.636
+00000000|MMI|17.80|Troponin|C0041199|[aapp,bacs]|["Troponin"-tx-6-"troponin"-noun-0]|TX|598/8|D05.750.078.730.825;D12.776.210.500.910;D12.776.220.525.825
+00000000|MMI|16.30|Chlorides|C0008203|[inch]|["Chloride, NOS"-tx-40-"chloride"-noun-0]|TX|3102/8|D01.210.450.150;D01.248.497.158.215
+00000000|MMI|16.22|Synthroid|C0728762|[aapp,phsu]|["Synthroid"-tx-61-"Synthroid"-noun-0]|TX|3723/9|D06.472.931.812;D12.125.072.050.767
+00000000|MMI|16.21|Iodides|C0021966|[inch]|["I-"-tx-51-"i"-adv-0]|TX|3540/1|D01.248.497.158.490;D01.475.410
+00000000|MMI|16.18|Ivory Coast|C0022326|[geoa]|["IV"-tx-23-"IV"-noun-0]|TX|2245/2|Z01.058.290.190.272
+00000000|MMI|15.79|Continuous|C0549178|[idcn]|["Continue"-tx-80-"continue"-verb-0]|TX|[4324/8],[4356/8],[4432/8]|
+00000000|MMI|15.37|1+|C3816745|[fndg]|["1+"-tx-46-"1"-integer-0,"1+"-tx-42-"1"-integer-0,"1+"-tx-16-"1"-integer-0,"1+"-tx-6-"1"-real_number-0]|TX|3419/1;3247/1;1888/1;632/1|
+00000000|MMI|15.37|1+ Score|C2827734|[qnco]|["1+"-tx-46-"1"-integer-0,"1+"-tx-42-"1"-integer-0,"1+"-tx-16-"1"-integer-0,"1+"-tx-6-"1"-real_number-0]|TX|3419/1;3247/1;1888/1;632/1|
+00000000|MMI|15.37|1+ Score, WHO|C2981698|[clas]|["1+"-tx-46-"1"-integer-0,"1+"-tx-42-"1"-integer-0,"1+"-tx-16-"1"-integer-0,"1+"-tx-6-"1"-real_number-0]|TX|3419/1;3247/1;1888/1;632/1|
+00000000|MMI|14.67|Body Fluid Discharge|C0012621|[bdsu]|["Discharge"-tx-44-"discharge"-noun-0,"Discharge"-tx-40-"discharge"-noun-0,"Discharge"-tx-37-"discharge"-noun-0,"Discharge"-tx-2-"DISCHARGE"-noun-0]|TX|3320/9;3036/9;2936/9;122/9|
+00000000|MMI|14.67|Discharge, body substance|C2926602|[bdsu]|["Discharge"-tx-44-"discharge"-noun-0,"Discharge"-tx-40-"discharge"-noun-0,"Discharge"-tx-37-"discharge"-noun-0,"Discharge"-tx-2-"DISCHARGE"-noun-0]|TX|3320/9;3036/9;2936/9;122/9|
+00000000|MMI|14.64|Diet|C0012155|[food]|["Diet"-tx-29-"diet"-noun-0]|TX|2577/4|G07.203.650.240
+00000000|MMI|14.64|Dyslipidemias|C0242339|[dsyn]|["Dyslipidemia"-tx-3-"dyslipidemia"-noun-0]|TX|250/12|C18.452.584.500
+00000000|MMI|14.64|Glucose|C0017725|[bacs,orch,phsu]|["GLUCOSE"-tx-40-"glucose"-noun-0]|TX|3152/7|D09.546.359.448
+00000000|MMI|14.64|Leg|C1140621|[blor]|["Legs"-tx-80-"legs"-noun-0]|TX|4384/4|A01.378.610.500
+00000000|MMI|14.64|Vital signs|C0518766|[clna]|["Signs, Vital"-tx-39-"vital signs"-noun-0]|TX|2979/11|E01.370.600.875
+00000000|MMI|14.45|Proximal|C0205107|[spco]|["PROXIMAL"-tx-13-"proximal"-adj-0,"PROXIMAL"-tx-12-"Proximal"-adj-0,"PROXIMAL"-tx-7-"proximal"-adj-0]|TX|1555/8;1451/8;[751/8],[777/8]|
+00000000|MMI|14.34|Emotions|C0013987|[menp]|["feel"-tx-35-"felt"-verb-0,"feel"-tx-25-"felt"-verb-0]|TX|2794/4;2372/4|F01.470
+00000000|MMI|13.92|Transplanted tissue|C0332835|[tisu]|["GRAFT"-tx-8-"graft"-noun-0,"GRAFT"-tx-8-"graft"-verb-0]|TX|[1037/5],[1147/5];[1037/5],[1147/5]|A01.941
+00000000|MMI|13.14|Blood Platelets|C0005821|[cell]|["Platelets"-tx-41-"platelets"-noun-0]|TX|3219/9|A11.118.188;A15.145.229.188
+00000000|MMI|13.14|Mental Depression|C0011570|[mobd]|["Depressions"-tx-6-"depressions"-noun-0]|TX|584/11|F01.145.126.350
+00000000|MMI|13.14|Sodium|C0037473|[bacs,elii]|["SODIUM"-tx-40-"sodium"-noun-0]|TX|3073/6|D01.268.549.750;D01.268.557.650;D01.552.528.850;D01.552.547.725;x.x.x.x
+00000000|MMI|13.10|Gastric Dilatation|C0038353|[dsyn]|["GASTRIC DILATATION"-tx-19-"gastric dilatation"-noun-0]|TX|2021/18|C06.405.748.300
+00000000|MMI|13.10|intensive care unit|C0021708|[hcro,mnob]|["INTENSIVE CARE UNIT"-tx-15-"Intensive Care Unit"-noun-0]|TX|1687/19|N02.278.388.493
+00000000|MMI|13.09|Potassium|C0032821|[elii]|["POTASSIUM"-tx-40-"potassium"-noun-0]|TX|3086/9|D01.268.549.550;D01.268.557.575;D01.552.528.652;D01.552.547.650;x.x.x.x
+00000000|MMI|13.07|Operating Room|C0029064|[hcro,mnob]|["OPERATING ROOM"-tx-8-"operating room"-noun-0]|TX|933/14|N02.278.388.700
+00000000|MMI|13.05|Niferex|C0212019|[orch,phsu]|["Niferex"-tx-65-"Niferex"-noun-0]|TX|3790/7|x.x.x.x
+00000000|MMI|13.02|Hypocalcemia|C0020598|[dsyn]|["HYPOCALCEMIA"-tx-4-"hypocalcemia"-noun-0]|TX|392/12|C18.452.174.509;C18.452.950.509
+00000000|MMI|12.94|Self|C0036588|[idcn]|["Self"-tx-23-"self"-noun-0]|TX|2214/4|F01.752.747.189;F02.739.794.206
+00000000|MMI|12.90|General surgery specialty|C1274039|[bmod]|["Surgery"-tx-8-"surgery"-noun-0]|TX|910/7|H02.403.810.300
+00000000|MMI|12.90|Saphenous Vein|C0036186|[bpoc]|["SAPHENOUS VEIN"-tx-11-"saphenous vein"-noun-0]|TX|1381/14|A07.231.908.819
+00000000|MMI|12.88|Constipation|C0009806|[sosy]|["CONSTIPATION"-tx-57-"constipation"-noun-0]|TX|3650/12|C23.888.821.150
+00000000|MMI|11.49|Diagnostic Imaging|C0011923|[diap]|["Imaging"-tx-25-"imaging"-adj-0]|TX|2382/7|E01.370.350
+00000000|MMI|11.49|Diet therapy|C0012159|[hlca]|["Diet"-tx-29-"diet"-noun-0]|TX|2577/4|E02.642.249
+00000000|MMI|11.28|Delayed Release Dosage Form|C1707664|[bodm]|["DR"-tx-78-"Dr"-noun-0,"DR"-tx-77-"Dr"-noun-0,"DR"-tx-76-"Dr"-noun-0]|TX|4203/2;4146/2;4109/2|
+00000000|MMI|11.28|Device to Subject Relationship Domain|C3540849|[inpr]|["DR"-tx-78-"Dr"-noun-0,"DR"-tx-77-"Dr"-noun-0,"DR"-tx-76-"Dr"-noun-0]|TX|4203/2;4146/2;4109/2|
+00000000|MMI|11.28|Doctor - Title|C2348314|[cnce]|["Dr."-tx-78-"Dr"-noun-0,"Dr."-tx-77-"Dr"-noun-0,"Dr."-tx-76-"Dr"-noun-0]|TX|4203/2;4146/2;4109/2|
+00000000|MMI|11.10|10%|C3842590|[fndg]|["10%"-tx-64-"10"-integer-0,"10%"-tx-7-"10"-fraction-0,"10%"-tx-5-"10"-fraction-0]|TX|3785/2;730/2;511/2|
+00000000|MMI|11.06|3+ Answer to Question|C3838680|[fndg]|["3+"-tx-82-"3"-fraction-0,"3+"-tx-50-"3"-integer-0]|TX|[4700/1],[4710/1];3504/1|
+00000000|MMI|11.06|3+ Score|C2827736|[qnco]|["3+"-tx-82-"3"-fraction-0,"3+"-tx-50-"3"-integer-0]|TX|[4700/1],[4710/1];3504/1|
+00000000|MMI|11.06|3+ Score, WHO|C2981702|[clas]|["3+"-tx-82-"3"-fraction-0,"3+"-tx-50-"3"-integer-0]|TX|[4700/1],[4710/1];3504/1|
+00000000|MMI|11.06|<3 (qualifier value)|C0439086|[qnco]|["<3"-tx-82-"3"-fraction-0,"<3"-tx-50-"3"-integer-0]|TX|[4700/1],[4710/1];3504/1|
+00000000|MMI|11.04|Saphenous vein graft|C0729538|[bpoc]|["SAPHENOUS VEIN GRAFT"-tx-13-"saphenous vein graft"-noun-0,"SAPHENOUS VEIN GRAFT"-tx-8-"saphenous vein graft"-noun-0]|TX|1576/20;[1061/20],[1167/20]|
+00000000|MMI|11.01|Lesion|C0221198|[fndg]|["Lesion"-tx-7-"lesion"-noun-0]|TX|[764/6],[797/6],[819/6]|
+00000000|MMI|11.01|Specimen Source Codes - Lesion|C1546698|[inpr]|["Lesion"-tx-7-"lesion"-noun-0]|TX|[764/6],[797/6],[819/6]|
+00000000|MMI|10.95|6 Hours|C1292428|[tmco]|["6H"-tx-63-"6h"-noun-0,"6H"-tx-59-"6h"-noun-0,"6H"-tx-47-"6h"-noun-0]|TX|3780/2;3696/2;3444/2|
+00000000|MMI|10.75|Place|C0442504|[spco]|["Place"-tx-19-"placed"-verb-0,"Place"-tx-16-"placed"-verb-0,"Place"-tx-13-"placed"-verb-0]|TX|2010/6;1874/6;1541/6|
+00000000|MMI|10.75|Place - dosing instruction imperative|C1704765|[ftcn]|["Place"-tx-19-"placed"-verb-0,"Place"-tx-16-"placed"-verb-0,"Place"-tx-13-"placed"-verb-0]|TX|2010/6;1874/6;1541/6|
+00000000|MMI|10.75|put - instruction imperative|C1882509|[acty]|["Place"-tx-19-"placed"-verb-0,"Place"-tx-16-"placed"-verb-0,"Place"-tx-13-"placed"-verb-0]|TX|2010/6;1874/6;1541/6|
+00000000|MMI|10.61|Magnesium Cation|C2346927|[elii,phsu]|["Mg+2"-tx-73-"2 mg"-noun-0,"Mg++"-tx-71-"mg"-noun-0,"Mg++"-tx-63-"mg"-noun-0]|TX|3972/1,3976/2;3945/2;3770/2|
+00000000|MMI|10.42|Biomedical Monitors|C0181904|[medd]|["Monitor"-tx-80-"monitor"-verb-0]|TX|[4336/7],[4444/7]|
+00000000|MMI|10.42|Connect|C2986575|[acty]|["Connect"-tx-8-"connects"-verb-0]|TX|[1048/8],[1158/8]|
+00000000|MMI|10.42|Good|C0205170|[qlco]|["Well"-tx-38-"well"-adv-0,"Well"-tx-32-"well"-adv-0]|TX|2968/4;2717/4|
+00000000|MMI|10.42|Including (qualifier)|C0332257|[ftcn]|["include"-tx-76-"Include"-verb-0,"included"-tx-40-"included"-verb-0]|TX|4068/7;3064/8|
+00000000|MMI|10.42|Monitor Device Component|C1704646|[mnob]|["Monitor"-tx-80-"monitor"-verb-0]|TX|[4336/7],[4444/7]|
+00000000|MMI|10.42|Monitor, occupation|C1521743|[prog]|["Monitor"-tx-80-"monitor"-verb-0]|TX|[4336/7],[4444/7]|
+00000000|MMI|10.42|Monitoring Device|C0596972|[medd]|["Monitor"-tx-80-"monitor"-verb-0]|TX|[4336/7],[4444/7]|
+00000000|MMI|10.42|Nasogastric tube|C0085678|[medd]|["NG tube"-tx-28-"NG tube"-noun-0,"NG tube"-tx-19-"NG tube"-noun-0]|TX|2546/7;2002/7|
+00000000|MMI|10.42|Patient Condition Code - Stable|C1547311|[inpr]|["Stable"-tx-44-"stable"-adj-0,"Stable"-tx-39-"stable"-adj-0]|TX|3344/6;2996/6|
+00000000|MMI|10.42|Preventive monitoring|C0150369|[hlca]|["monitor"-tx-80-"monitor"-verb-0]|TX|[4336/7],[4444/7]|
+00000000|MMI|10.42|Removed|C0849355|[qlco]|["Removed"-tx-28-"removed"-verb-0,"Out"-tx-16-"out"-adv-0]|TX|2563/7;1827/3|
+00000000|MMI|10.42|Revealed|C0443289|[qlco]|["Revealed"-tx-43-"revealed"-verb-0,"Revealed"-tx-7-"revealed"-verb-0]|TX|3267/8;738/8|
+00000000|MMI|10.42|Stable status|C0205360|[qlco]|["STABLE"-tx-44-"stable"-adj-0,"STABLE"-tx-39-"stable"-adj-0]|TX|3344/6;2996/6|
+00000000|MMI|10.42|Well|C3146287|[mnob]|["Well"-tx-38-"well"-adv-0,"Well"-tx-32-"well"-adv-0]|TX|2968/4;2717/4|
+00000000|MMI|10.28|Tracheal Extubation|C0553891|[topp]|["Extubate"-tx-20-"extubated"-verb-0]|TX|2049/9|E02.041.249;E05.008
+00000000|MMI|9.99|Disease|C0012634|[dsyn]|["condition"-tx-44-"condition"-noun-0]|TX|3330/9|C23.550.288
+00000000|MMI|9.90|Appointments|C0003629|[idcn]|["Appointments"-tx-76-"appointments"-noun-0]|TX|4091/12|N04.452.095
+00000000|MMI|9.85|Males|C0086582|[orga]|["MALE"-tx-3-"male"-noun-0]|TX|212/4|x.x.x
+00000000|MMI|9.78|Laboratory|C0022877|[mnob,orgt]|["LABORATORY"-tx-40-"laboratory"-noun-0]|TX|3046/10|N02.278.487
+00000000|MMI|9.76|Tablet Dosage Form|C0039225|[bodm]|["Tablets"-tx-69-"tablets"-noun-0]|TX|3908/7|D26.255.830
+00000000|MMI|9.76|Hypertensive disease|C0020538|[dsyn]|["HYPERTENSION"-tx-18-"hypertension"-noun-0]|TX|1977/12|C14.907.489
+00000000|MMI|9.74|Hypothyroidism|C0020676|[dsyn]|["Hypothyroid"-tx-31-"hypothyroid"-noun-0]|TX|2659/11|C19.874.482
+00000000|MMI|9.73|Veins|C0042449|[bpoc]|["VEIN"-tx-11-"vein"-noun-0]|TX|1391/4|A07.231.908
+00000000|MMI|9.72|Anxiety|C0003467|[mobd]|["-- Anxiety"-tx-73-"anxiety"-noun-0]|TX|4005/7|F01.470.132
+00000000|MMI|8.34|Behavior|C0004927|[inbe]|["Behaviour, NOS"-tx-25-"behavior"-noun-0]|TX|2420/8|F01.145
+00000000|MMI|8.34|Physical therapy|C0949766|[topp]|["Physical Therapy"-tx-34-"Physical therapy"-noun-0]|TX|2756/16|E02.779
+00000000|MMI|8.34|catheter device|C0085590|[medd]|["Catheters"-tx-16-"catheters"-noun-0]|TX|1794/9|E07.132
+00000000|MMI|8.00|Geographic state|C1301808|[geoa]|["State"-tx-23-"stating"-verb-0,"State"-tx-16-"stating"-verb-0]|TX|2274/7;1804/7|
+00000000|MMI|8.00|State|C1442792|[ftcn]|["State"-tx-23-"stating"-verb-0,"State"-tx-16-"stating"-verb-0]|TX|2274/7;1804/7|
+00000000|MMI|8.00|US State|C3148680|[geoa]|["State"-tx-23-"stating"-verb-0,"State"-tx-16-"stating"-verb-0]|TX|2274/7;1804/7|
+00000000|MMI|7.61|Creatinine finding|C1561535|[fndg]|["Creatinine"-tx-40-"creatinine"-noun-0,"Creatinine"-tx-6-"creatinine"-noun-0]|TX|3135/10;617/10|
+00000000|MMI|7.57|Graft material|C0181074|[bodm]|["{Graft}"-tx-8-"graft"-noun-0,"{Graft}"-tx-8-"graft"-verb-0]|TX|[1037/5],[1147/5];[1037/5],[1147/5]|
+00000000|MMI|7.57|Grafting procedure|C1961139|[topp]|["Graft, NOS"-tx-8-"graft"-noun-0,"Graft, NOS"-tx-8-"graft"-verb-0]|TX|[1037/5],[1147/5];[1037/5],[1147/5]|
+00000000|MMI|7.55|Day 3|C3842675|[fndg]|["Day 3"-tx-26-"day 3"-noun-0,"Day 3"-tx-24-"day 3"-noun-0]|TX|2508/3,2513/1;2336/3,2341/1|
+00000000|MMI|7.53|Personal appearance|C0233426|[orga]|["Appearance"-tx-43-"appearance"-noun-0,"look"-tx-38-"looked"-verb-0]|TX|3303/10;2961/6|
+00000000|MMI|7.47|Hospital environment|C1510665|[qlco]|["Hospital"-tx-23-"hospital"-noun-0,"Hospital"-tx-5-"hospital"-noun-0]|TX|2308/8;499/8|
+00000000|MMI|7.47|Overnight|C0439583|[tmco]|["Overnight"-tx-25-"overnight"-adv-0,"Overnight"-tx-20-"overnight"-adv-0]|TX|2438/9;2059/9|
+00000000|MMI|7.41|milligram/day|C0439422|[qnco]|["mg/d"-tx-65-"mg d"-noun-0,"mg/d"-tx-55-"mg d"-noun-0]|TX|3802/2,3814/1;3592/2,3604/1|
+00000000|MMI|7.38|1 Day|C1442449|[tmco]|["Day 1"-tx-20-"day 1"-noun-0,"Day 1"-tx-15-"day 1"-noun-0]|TX|2086/3,2091/1;1724/3,1729/1|
+00000000|MMI|7.36|Then|C1883708|[tmco]|["Then"-tx-8-"then"-adv-0]|TX|[1110/4],[1199/4]|
+00000000|MMI|7.33|Attending (action)|C1999232|[ftcn]|["attending"-tx-82-"Attending"-noun-0,"attending"-tx-1-"ATTENDING"-noun-0]|TX|4639/9;25/9|
+00000000|MMI|7.33|Attending (provider role)|C1547429|[prog]|["Attending"-tx-82-"Attending"-noun-0,"Attending"-tx-1-"ATTENDING"-noun-0]|TX|4639/9;25/9|
+00000000|MMI|7.32|As Needed|C1883728|[qlco]|["As Needed"-tx-59-"as needed"-adj-0,"As Needed"-tx-47-"as needed"-adj-0]|TX|3699/9;3447/9|
+00000000|MMI|7.32|PRN (schedule frequency)|C1879745|[tmco]|["As needed"-tx-59-"as needed"-adj-0,"As needed"-tx-47-"as needed"-adj-0]|TX|3699/9;3447/9|
+00000000|MMI|7.32|Sinus rhythm|C0232201|[fndg]|["SINUS RHYTHM"-tx-39-"sinus rhythm"-noun-0,"SINUS RHYTHM"-tx-27-"sinus rhythm"-noun-0]|TX|3017/12;2527/12|
+00000000|MMI|7.25|Rehabilitation - specialty|C1306847|[bmod]|["Rehabilitation"-tx-45-"rehabilitation"-noun-0,"Rehabilitation"-tx-35-"rehabilitation"-noun-0]|TX|3379/14;2839/14|
+00000000|MMI|7.23|Hematocrit level|C0518014|[fndg]|["Hematocrit"-tx-65-"hematocrit"-noun-0,"Hematocrit"-tx-41-"hematocrit"-noun-0]|TX|3821/10;3201/10|
+00000000|MMI|7.21|Make - Instruction Imperative|C1881534|[ftcn]|["Make"-tx-76-"make"-verb-0,"Make"-tx-8-"made"-adj-0]|TX|4079/4;895/4|
+00000000|MMI|7.19|Back structure, excluding neck|C1995000|[blor]|["Back, NOS"-tx-31-"back"-adj-0,"Back, NOS"-tx-18-"back"-adj-0]|TX|2647/4;1941/4|
+00000000|MMI|7.19|Back structure, including back of neck|C0460009|[blor]|["Back"-tx-31-"back"-adj-0,"Back"-tx-18-"back"-adj-0]|TX|2647/4;1941/4|
+00000000|MMI|7.19|Dorsal|C0205095|[spco]|["BACK"-tx-31-"back"-adj-0,"BACK"-tx-18-"back"-adj-0]|TX|2647/4;1941/4|
+00000000|MMI|7.18|Day 2|C3842676|[fndg]|["Day 2"-tx-23-"day 2"-noun-0,"Day 2"-tx-21-"day 2"-noun-0]|TX|2265/3,2270/1;2112/3,2117/1|
+00000000|MMI|7.17|Done (qualifier value)|C1272695|[qlco]|["Done"-tx-12-"done"-aux-0,"Done"-tx-7-"done"-aux-0]|TX|1477/4;722/4|
+00000000|MMI|7.14|Surgical transfer - action|C0348011|[ftcn]|["transferred"-tx-15-"transferred"-verb-0,"transferred"-tx-7-"transferred"-verb-0]|TX|1668/11;654/11|
+00000000|MMI|7.14|Transfer Technique|C1705822|[ftcn]|["Transferred"-tx-15-"transferred"-verb-0,"Transferred"-tx-7-"transferred"-verb-0]|TX|1668/11;654/11|
+00000000|MMI|7.11|Patient need for (contextual qualifier)|C0686904|[ftcn]|["needed"-tx-73-"needed"-adj-0,"needed"-tx-57-"needed"-adj-0]|TX|3994/6;3639/6|
+00000000|MMI|7.09|Status|C0449438|[qlco]|["Status"-tx-80-"status"-noun-0,"Status"-tx-3-"status"-prep-0]|TX|4347/6;289/6|
+00000000|MMI|7.08|Two weeks|C4082118|[tmco]|["Two weeks"-tx-79-"two weeks"-noun-0,"Two weeks"-tx-78-"two weeks"-noun-0]|TX|4250/3,4262/5;4187/9|
+00000000|MMI|7.08|Milligram percent|C1960952|[qnco]|["mg %"-tx-71-"mg"-noun-0,"mg %"-tx-63-"mg"-noun-0]|TX|3945/2;3770/2|
+00000000|MMI|7.08|mg/dL|C0439269|[qnco]|["mg%"-tx-71-"mg"-noun-0,"mg%"-tx-63-"mg"-noun-0]|TX|3945/2;3770/2|
+00000000|MMI|7.05|/40|C0439509|[tmco]|["/40"-tx-71-"40"-integer-0,"/40"-tx-7-"40"-percentage-0]|TX|3942/2;854/2|
+00000000|MMI|7.05|40%|C3842587|[qnco]|["40%"-tx-71-"40"-integer-0,"40%"-tx-7-"40"-percentage-0]|TX|3942/2;854/2|
+00000000|MMI|6.97|Sequential|C1705294|[qlco]|["Sequential"-tx-8-"sequential"-adj-0]|TX|[1026/10],[1117/10]|
+00000000|MMI|6.97|Sequential - Sequence/Results Flag|C1548958|[idcn]|["Sequential"-tx-8-"sequential"-adj-0]|TX|[1026/10],[1117/10]|
+00000000|MMI|6.95|Post|C0687676|[tmco]|["Status Post"-tx-4-"status post"-prep-0,"Status Post"-tx-3-"status post"-prep-0]|TX|405/11;289/11|
+00000000|MMI|6.95|Status post|C0231290|[tmco]|["Status post"-tx-4-"status post"-prep-0,"Status post"-tx-3-"status post"-prep-0]|TX|405/11;289/11|
+00000000|MMI|6.92|Four|C0205450|[qnco]|["Four"-tx-79-"four"-word_numeral-0,"Four"-tx-77-"four"-word_numeral-0]|TX|4257/4;4126/4|
+00000000|MMI|6.92|Pain NOS Adverse Event|C1962977|[fndg]|["Pain NOS"-tx-59-"pain"-noun-0,"Pain NOS"-tx-47-"pain"-noun-0]|TX|3713/4;3461/4|
+00000000|MMI|6.90|Entire aorta|C1278934|[bpoc]|["Aorta"-tx-12-"aorta"-noun-0,"Aorta"-tx-8-"aorta"-noun-0]|TX|1467/5;1089/5|
+00000000|MMI|6.89|Incision and drainage|C0152277|[topp]|["i d"-tx-73-"i.d"-adv-0,"i d"-tx-57-"i.d"-adv-0]|TX|3986/3;3631/3|
+00000000|MMI|6.66|Time|C0040223|[tmco]|["TIME"-tx-37-"time"-noun-0]|TX|2931/4|G01.910
+00000000|MMI|6.57|Anxiety Disorders|C0003469|[mobd]|["Anxiety"-tx-73-"anxiety"-noun-0]|TX|4005/7|F03.080
+00000000|MMI|5.18|+2|C0740116|[qnco]|["+2"-tx-48-"2"-integer-0]|TX|3468/1|
+00000000|MMI|5.18|+5|C0728893|[qnco]|["+5"-tx-54-"5"-integer-0]|TX|3576/1|
+00000000|MMI|5.18|2+|C3833492|[fndg]|["2+"-tx-48-"2"-integer-0]|TX|3468/1|
+00000000|MMI|5.18|2+ Score|C2827735|[qnco]|["2+"-tx-48-"2"-integer-0]|TX|3468/1|
+00000000|MMI|5.18|2+ Score, WHO|C2981700|[clas]|["2+"-tx-48-"2"-integer-0]|TX|3468/1|
+00000000|MMI|5.18|4+ Answer to question|C3838679|[fndg]|["4+"-tx-52-"4"-integer-0]|TX|3545/1|
+00000000|MMI|5.18|>5|C0439084|[qnco]|[">5"-tx-54-"5"-integer-0]|TX|3576/1|
+00000000|MMI|5.18|Additional|C1524062|[ftcn]|["Added"-tx-22-"added"-verb-0]|TX|2163/5|
+00000000|MMI|5.18|Admission Level of Care Code - Improved|C1561611|[inpr]|["Improved"-tx-25-"improved"-verb-0]|TX|2429/8|
+00000000|MMI|5.18|Admission activity|C0809949|[hlca]|["Admitted"-tx-8-"admitted"-verb-0]|TX|884/8|
+00000000|MMI|5.18|Advanced phase|C0205179|[qlco]|["Advanced"-tx-29-"advanced"-verb-0]|TX|2592/8|
+00000000|MMI|5.18|Ambulate|C4036205|[fndg]|["Ambulate"-tx-80-"ambulate"-verb-0]|TX|4368/8|
+00000000|MMI|5.18|Aortic arch structure|C0003489|[bpoc]|["AORTIC ARCH"-tx-9-"aortic arch"-noun-0]|TX|1262/11|
+00000000|MMI|5.18|Availability of|C0470187|[ftcn]|["Available"-tx-36-"available"-adj-0]|TX|2875/9|
+00000000|MMI|5.18|Basal Diet|C2983588|[food]|["DIET"-tx-29-"diet"-noun-0]|TX|2577/4|
+00000000|MMI|5.18|Behavior:-:Point in time:^Patient:-|C2707008|[clna]|["Behavior"-tx-25-"behavior"-noun-0]|TX|2420/8|
+00000000|MMI|5.18|Better|C0332272|[qlco]|["Improved"-tx-25-"improved"-verb-0]|TX|2429/8|
+00000000|MMI|5.18|CDISC SDTM Discharge Disposition Terminology|C3541348|[inpr]|["Discharge Disposition"-tx-45-"DISCHARGE DISPOSITION"-noun-0]|TX|3353/21|
+00000000|MMI|5.18|Caltrate Plus D|C3538405|[phsu]|["Caltrate Plus D"-tx-69-"Caltrate Plus D"-noun-0]|TX|3886/15|
+00000000|MMI|5.18|Cardiologist|C0175906|[prog]|["Cardiologist"-tx-78-"cardiologist"-noun-0]|TX|4162/12|
+00000000|MMI|5.18|Dario|C1470250|[fish]|["Dario"-tx-78-"Dario"-noun-0]|TX|4150/5|
+00000000|MMI|5.18|Diet (animal life circumstance)|C3668949|[food]|["Diet"-tx-29-"diet"-noun-0]|TX|2577/4|
+00000000|MMI|5.18|Discharge date|C2361123|[tmco]|["Discharge date"-tx-1-"Discharge Date"-noun-0]|TX|0/14|
+00000000|MMI|5.18|Discharge date:Time Stamp -- Date and Time:Point in time:^Patient:Quantitative|C2361122|[clna]|["Discharge date"-tx-1-"Discharge Date"-noun-0]|TX|0/14|
+00000000|MMI|5.18|Discharge disposition:Type:Pt:^Patient:Nom|C4019243|[clna]|["Discharge disposition"-tx-45-"DISCHARGE DISPOSITION"-noun-0]|TX|3353/21|
+00000000|MMI|5.18|Discharge instructions:Find:Pt:{Setting}:Doc:{Provider}|C3669312|[clna]|["Discharge instructions"-tx-76-"DISCHARGE INSTRUCTIONS"-noun-0]|TX|4044/22|
+00000000|MMI|5.18|Elevated|C3163633|[qlco]|["Elevated"-tx-80-"elevated"-verb-0]|TX|4389/8|
+00000000|MMI|5.18|Entire aortic arch|C1269010|[bpoc]|["Aortic arch"-tx-9-"aortic arch"-noun-0]|TX|1262/11|
+00000000|MMI|5.18|Entire left upper arm|C1268256|[bpoc]|["Left arm"-tx-5-"left arm"-noun-0]|TX|554/8|
+00000000|MMI|5.18|Finding of blood glucose level|C0428554|[lbtr]|["blood glucose levels"-tx-80-"blood glucose levels"-noun-0]|TX|4452/20|
+00000000|MMI|5.18|Follow|C1719822|[inpr]|["Follow"-tx-76-"follow"-verb-0]|TX|4084/6|
+00000000|MMI|5.18|Followed by|C0332283|[tmco]|["follow"-tx-76-"follow"-verb-0]|TX|4084/6|
+00000000|MMI|5.18|Fulfill|C1550543|[phpr]|["Meet"-tx-35-"meet"-verb-0]|TX|2817/4|
+00000000|MMI|5.18|Glonoine, nitroglycerine, Homeopathic preparation|C0885378|[orch,phsu]|["nitroglycerine"-tx-17-"Nitroglycerin"-noun-0]|TX|1899/13|
+00000000|MMI|5.18|High|C0205250|[qlco]|["Elevated"-tx-80-"elevated"-verb-0]|TX|4389/8|
+00000000|MMI|5.18|History of present illness|C0262512|[orga]|["HISTORY OF PRESENT ILLNESS"-tx-3-"HISTORY OF PRESENT ILLNESS"-noun-0]|TX|162/26|
+00000000|MMI|5.18|History of present illness:Finding:Point in time:^Patient:Nominal:Reported|C0488508|[clna]|["History of present illness"-tx-3-"HISTORY OF PRESENT ILLNESS"-noun-0]|TX|162/26|
+00000000|MMI|5.18|Hospital admission|C0184666|[hlca]|["admitted"-tx-8-"admitted"-verb-0]|TX|884/8|
+00000000|MMI|5.18|Hospital course|C0489547|[fndg]|["Hospital course"-tx-8-"HOSPITAL COURSE"-noun-0]|TX|860/15|
+00000000|MMI|5.18|Hospital course:Finding:Point in time:^Patient:Narrative|C0488549|[clna]|["Hospital course"-tx-8-"HOSPITAL COURSE"-noun-0]|TX|860/15|
+00000000|MMI|5.18|Hypertensive (finding)|C0857121|[fndg]|["hypertensive"-tx-21-"hypertensive"-adj-0]|TX|2134/12|
+00000000|MMI|5.18|Imaging Techniques|C0079595|[diap]|["Imaging"-tx-25-"imaging"-adj-0]|TX|2382/7|
+00000000|MMI|5.18|Improved|C0184511|[qlco]|["Improved"-tx-25-"improved"-verb-0]|TX|2429/8|
+00000000|MMI|5.18|Include (action)|C2700399|[acty]|["Include"-tx-76-"Include"-verb-0]|TX|4068/7|
+00000000|MMI|5.18|Instruction [Publication Type]|C0302828|[inpr]|["instructions"-tx-80-"INSTRUCTIONS"-noun-0]|TX|4276/12|
+00000000|MMI|5.18|Instructions|C1442085|[idcn]|["Instructions"-tx-80-"INSTRUCTIONS"-noun-0]|TX|4276/12|
+00000000|MMI|5.18|Instructions:Text:Point in time:^Patient:Narrative|C3263700|[clna]|["Instructions"-tx-80-"INSTRUCTIONS"-noun-0]|TX|4276/12|
+00000000|MMI|5.18|Integrated Neuromusculoskeletal Release|C1704538|[topp]|["INR"-tx-42-"INR"-noun-0]|TX|3239/3|
+00000000|MMI|5.18|Left upper arm structure|C0230347|[bpoc]|["Left Arm"-tx-5-"left arm"-noun-0]|TX|554/8|
+00000000|MMI|5.18|MRC1 gene|C1417249|[gngm]|["MR"-tx-37-"Mr"-noun-0]|TX|2948/2|
+00000000|MMI|5.18|Medication.discharge|C0806915|[fndg]|["Discharge medications"-tx-46-"DISCHARGE MEDICATIONS"-noun-0]|TX|3396/21|
+00000000|MMI|5.18|Minor Response|C4050513|[fndg]|["MR"-tx-37-"Mr"-noun-0]|TX|2948/2|
+00000000|MMI|5.18|Mr. - Title|C2347167|[cnce]|["Mr."-tx-37-"Mr"-noun-0]|TX|2948/2|
+00000000|MMI|5.18|Multivitamins with minerals|C0721844|[phsu,vita]|["MULTIVITAMINS WITH MINERALS"-tx-67-"Multivitamins with minerals"-noun-0]|TX|3852/27|
+00000000|MMI|5.18|Out (direction)|C0439787|[spco]|["Out"-tx-16-"out"-adv-0]|TX|1827/3|
+00000000|MMI|5.18|Physical therapy (field)|C0699718|[bmod]|["physical therapy"-tx-34-"Physical therapy"-noun-0]|TX|2756/16|
+00000000|MMI|5.18|Plain chest X-ray|C0039985|[diap]|["Chest X-ray"-tx-43-"chest x-ray"-noun-0]|TX|3255/11|
+00000000|MMI|5.18|Present|C0150312|[qnco]|["Found"-tx-9-"found"-verb-0]|TX|1274/5|
+00000000|MMI|5.18|Psychiatric problem|C1306597|[mobd]|["psych"-tx-24-"Psych"-noun-0]|TX|2345/5|
+00000000|MMI|5.18|Retained|C0333118|[ftcn]|["Keep"-tx-80-"keep"-verb-0]|TX|4379/4|
+00000000|MMI|5.18|Shower (physical object)|C0541748|[mnob]|["Shower"-tx-80-"shower"-verb-0]|TX|4309/6|
+00000000|MMI|5.18|Special Diet Therapy|C1519433|[topp]|["DIET"-tx-29-"diet"-noun-0]|TX|2577/4|
+00000000|MMI|5.18|Started|C1272689|[qlco]|["Started"-tx-18-"started"-verb-0]|TX|1933/7|
+00000000|MMI|5.18|Taking vital signs|C0150404|[hlca]|["Vital signs"-tx-39-"vital signs"-noun-0]|TX|2979/11|
+00000000|MMI|5.18|Therapeutic Mobilization|C0185112|[topp]|["Mobilizing"-tx-33-"mobilizing"-adv-0]|TX|2731/10|
+00000000|MMI|5.18|Uncomplicated|C0443334|[qlco]|["Uncomplicated"-tx-14-"uncomplicated"-adj-0]|TX|1645/13|
+00000000|MMI|5.18|Views:Finding:Point in time:Chest:Narrative:XR|C1114557|[clna]|["Chest X-ray"-tx-43-"chest x-ray"-noun-0]|TX|3255/11|
+00000000|MMI|5.18|Wanted|C1444647|[fndg]|["Wanted"-tx-16-"wanted"-verb-0]|TX|1815/6|
+00000000|MMI|5.18|White blood cell count laboratory result|C0427512|[lbtr]|["white blood cell count"-tx-41-"White blood cell count"-noun-0]|TX|3168/22|
+00000000|MMI|5.18|disposition of patient discharged to|C1550390|[fndg]|["Discharge Disposition"-tx-45-"DISCHARGE DISPOSITION"-noun-0]|TX|3353/21|
+00000000|MMI|5.18|hospital discharge instructions (treatment)|C2266673|[hlca]|["Discharge instructions"-tx-76-"DISCHARGE INSTRUCTIONS"-noun-0]|TX|4044/22|
+00000000|MMI|5.18|include - SetOperator|C1552866|[idcn]|["include"-tx-76-"Include"-verb-0]|TX|4068/7|
+00000000|MMI|5.18|premalignant lesion|C0850639|[neop]|["Premalignant Lesion"-tx-4-"premalignant lesion"-noun-0]|TX|441/19|
+00000000|MMI|3.98|Show|C1547282|[anim]|["Show"-tx-6-"showed"-verb-0]|TX|573/6|
+00000000|MMI|3.81|Entire left radial artery|C1267375|[bpoc]|["Left radial artery"-tx-8-"left radial artery"-noun-0]|TX|1128/18|
+00000000|MMI|3.81|Structure of left radial artery|C0226439|[bpoc]|["Left radial artery"-tx-8-"left radial artery"-noun-0]|TX|1128/18|
+00000000|MMI|3.78|Principal Diagnosis:-:Point in time:^Patient:-|C2598194|[clna]|["Principal Diagnosis"-tx-2-"PRINCIPAL DIAGNOSIS"-noun-0]|TX|112/9,132/9|
+00000000|MMI|3.78|Principal diagnosis|C0332137|[qlco]|["Principal Diagnosis"-tx-2-"PRINCIPAL DIAGNOSIS"-noun-0]|TX|112/9,132/9|
+00000000|MMI|3.78|Proximal anastomosis|C0448963|[topp]|["Proximal anastomosis"-tx-13-"Proximal anastomosis"-noun-0]|TX|1509/8,1525/11|
+00000000|MMI|3.77|H/O: hypothyroidism|C0455486|[fndg]|["History of - hypothyroidism"-tx-4-"history of hypothyroidism"-noun-0]|TX|362/25|
+00000000|MMI|3.75|Day 4|C3840892|[fndg]|["Day 4"-tx-32-"day 4"-noun-0]|TX|2695/3,2700/1|
+00000000|MMI|3.75|Wound care management|C1272654|[topp]|["Wound Care"-tx-80-"wound care"-noun-0]|TX|4296/10|
+00000000|MMI|3.75|discharge diagnosis|C1555319|[fndg]|["Discharge diagnosis"-tx-2-"DISCHARGE DIAGNOSIS"-noun-0]|TX|122/19|
+00000000|MMI|3.75|sliding scale|C2937251|[topp]|["sliding scale"-tx-75-"sliding scale"-noun-0]|TX|4028/13|
+00000000|MMI|3.75|wound care|C0886052|[topp]|["Wound care"-tx-80-"wound care"-noun-0]|TX|4296/10|
+00000000|MMI|3.73|Transfer to stepdown unit|C3165163|[hlca]|["Transfer to stepdown unit"-tx-26-"transferred to Step-Down Unit"-noun-0]|TX|2457/14,2476/14|
+00000000|MMI|3.68|Chloride Ion|C0596019|[elii]|["CHLORIDE"-tx-40-"chloride"-noun-0]|TX|3102/8|
+00000000|MMI|3.68|Condition|C0348080|[qlco]|["Condition"-tx-44-"condition"-noun-0]|TX|3330/9|
+00000000|MMI|3.68|Condition:Find:Pt:^Patient:Nom|C3864998|[clna]|["Condition"-tx-44-"condition"-noun-0]|TX|3330/9|
+00000000|MMI|3.68|Doctor of Medicine|C1512018|[inpr]|["M.D."-tx-81-"M.D"-noun-0]|TX|4575/3|
+00000000|MMI|3.68|Document type|C1547673|[inpr]|["Document"-tx-81-"document"-noun-0]|TX|4528/8|
+00000000|MMI|3.68|Documents|C1301746|[inpr]|["document"-tx-81-"document"-noun-0]|TX|4528/8|
+00000000|MMI|3.68|Gender Status - Intact|C1554187|[fndg]|["Intact"-tx-16-"intact"-adj-0]|TX|1755/6|
+00000000|MMI|3.68|Intact|C0205266|[qlco]|["Intact"-tx-16-"intact"-adj-0]|TX|1755/6|
+00000000|MMI|3.68|Logical Condition|C1705253|[cnce]|["Condition"-tx-44-"condition"-noun-0]|TX|3330/9|
+00000000|MMI|3.68|Platelets Adverse Event|C1963076|[fndg]|["Platelets"-tx-41-"platelets"-noun-0]|TX|3219/9|
+00000000|MMI|3.68|Sodium Cation|C0597484|[elii]|["Sodium+"-tx-40-"sodium"-noun-0]|TX|3073/6|
+00000000|MMI|3.68|Sodium Drug Class|C3714642|[phsu]|["SODIUM"-tx-40-"sodium"-noun-0]|TX|3073/6|
+00000000|MMI|3.68|Sodium supplements|C3541959|[phsu]|["Sodium"-tx-40-"sodium"-noun-0]|TX|3073/6|
+00000000|MMI|3.68|cobaltous cation|C2347816|[elii,phsu]|["Co2+"-tx-40-"CO2"-noun-0]|TX|3117/3|
+00000000|MMI|3.68|week|C0439230|[tmco]|["WEEKS"-tx-77-"weeks"-noun-0]|TX|4138/5|
+00000000|MMI|3.66|Calcium Gluconate 1000 MG|C1134743|[clnd]|["Calcium Gluconate 1000 MG"-tx-51-"Calcium gluconate 1000 mg"-noun-0]|TX|3507/25|
+00000000|MMI|3.66|Aspirin 325 MG|C0992015|[clnd]|["Aspirin 325 MG"-tx-49-"aspirin 325 mg"-noun-0]|TX|3476/14|
+00000000|MMI|3.65|Admitting diagnosis|C0332133|[fndg]|["Admitting diagnosis"-tx-1-"ADMITTING DIAGNOSIS"-noun-0]|TX|65/19|
+00000000|MMI|3.64|Captopril 25 MG|C0984502|[clnd]|["Captopril 25 MG"-tx-53-"Captopril 25 mg"-noun-0]|TX|3548/15|
+00000000|MMI|3.64|Circulatory arrest|C0444720|[dsyn]|["Arrest, circulatory"-tx-12-"circulatory arrest"-noun-0]|TX|1488/18|
+00000000|MMI|3.64|Room type - Intensive care unit|C1549475|[idcn]|["Intensive care unit"-tx-15-"Intensive Care Unit"-noun-0]|TX|1687/19|
+00000000|MMI|3.63|Appearance|C0700364|[qlco]|["Appearance"-tx-43-"appearance"-noun-0]|TX|3303/10|
+00000000|MMI|3.63|Ascend (action)|C1962987|[ftcn]|["Ascending"-tx-9-"ascending"-noun-0]|TX|1248/9|
+00000000|MMI|3.63|Ascending|C0205385|[qlco]|["Ascending"-tx-9-"ascending"-noun-0]|TX|1248/9|
+00000000|MMI|3.63|Course|C0750729|[tmco]|["Course"-tx-14-"course"-noun-0]|TX|1634/6|
+00000000|MMI|3.63|Potassium Drug Class|C3714637|[phsu]|["POTASSIUM"-tx-40-"potassium"-noun-0]|TX|3086/9|
+00000000|MMI|3.63|Potassium Ion|C0597277|[elii,phsu]|["Potassium"-tx-40-"potassium"-noun-0]|TX|3086/9|
+00000000|MMI|3.63|Potassium measurement|C0202194|[lbpr]|["Potassium+"-tx-40-"potassium"-noun-0]|TX|3086/9|
+00000000|MMI|3.63|Potassium supplement|C0304475|[inch,phsu]|["POTASSIUM"-tx-40-"potassium"-noun-0]|TX|3086/9|
+00000000|MMI|3.63|Sequencing - Ascending|C1547175|[ftcn]|["Ascending"-tx-9-"ascending"-noun-0]|TX|1248/9|
+00000000|MMI|3.63|Values|C0042295|[qlco]|["Values"-tx-40-"values"-noun-0]|TX|3057/6|
+00000000|MMI|3.61|C-Circle|C3538933|[celc]|["CC"-tx-81-"CC"-noun-0]|TX|4552/2|
+00000000|MMI|3.61|Niferex-150|C0212018|[orch,phsu]|["Niferex-150"-tx-65-"Niferex 150"-noun-0]|TX|3790/11|
+00000000|MMI|3.61|Fraction of|C1264633|[qnco]|["Fraction of"-tx-7-"fraction of"-noun-0]|TX|842/11|
+00000000|MMI|3.61|Patient location type - Operating Room|C1578465|[spco]|["Operating Room"-tx-8-"operating room"-noun-0]|TX|933/14|
+00000000|MMI|3.60|Radiating chest pain|C0232289|[sosy]|["chest pain radiating"-tx-5-"chest pain radiating"-noun-0]|TX|524/20|
+00000000|MMI|3.60|day|C0439228|[tmco]|["DAY"-tx-69-"day"-noun-0]|TX|3924/3|
+00000000|MMI|3.60|microgram|C0439211|[qnco]|["mcg"-tx-61-"mcg"-noun-0]|TX|3737/3|
+00000000|MMI|3.60|miscellaneous Crenarchaeota group|C3463985|[arch]|["MCG"-tx-61-"mcg"-noun-0]|TX|3737/3|
+00000000|MMI|3.60|per day|C0439505|[tmco]|["/day"-tx-69-"day"-noun-0]|TX|3924/3|
+00000000|MMI|3.59|Full|C0443225|[qlco]|["Full"-tx-49-"Full"-adj-0]|TX|3471/4|
+00000000|MMI|3.59|60%|C3842585|[fndg]|["60%"-tx-55-"60"-integer-0]|TX|3589/2|
+00000000|MMI|3.59|Blood group antibody I|C0221138|[aapp,imft]|["I NOS"-tx-51-"i"-adv-0]|TX|3540/1|
+00000000|MMI|3.59|Clinical Study Follow-up|C3274571|[hlca]|["FOLLOW-UP"-tx-80-"follow up"-adj-0]|TX|4477/9|
+00000000|MMI|3.59|Does pull|C0580846|[fndg]|["pulling"-tx-16-"pulling"-verb-0]|TX|1773/7|
+00000000|MMI|3.59|Follow-Up Report|C1704685|[inpr]|["Follow-Up"-tx-80-"follow up"-adj-0]|TX|4477/9|
+00000000|MMI|3.59|Follow-up status|C0589120|[fndg]|["Follow-up"-tx-80-"follow up"-adj-0]|TX|4477/9|
+00000000|MMI|3.59|Linear|C0205132|[spco]|["lines"-tx-16-"lines"-noun-0]|TX|1784/5|
+00000000|MMI|3.59|Pulling|C2584320|[orgf]|["Pulling"-tx-16-"pulling"-verb-0]|TX|1773/7|
+00000000|MMI|3.59|Twice (Numerical Qualifier)|C1948050|[qnco]|["Twice"-tx-3-"twice"-adv-0]|TX|332/5|
+00000000|MMI|3.59|Twice - dosing instruction fragment|C1720725|[inpr]|["Twice"-tx-3-"twice"-adv-0]|TX|332/5|
+00000000|MMI|3.59|follow-up|C1522577|[hlca]|["Follow Up"-tx-80-"follow up"-adj-0]|TX|4477/9|
+00000000|MMI|3.57|Time 2|C0808270|[fndg]|["Time 2"-tx-8-"2 time"-noun-0]|TX|951/1,967/4|
+00000000|MMI|3.57|Academic degree|C0542560|[inpr]|["degrees"-tx-11-"degrees"-noun-0]|TX|1347/7|
+00000000|MMI|3.57|Arrested progression|C0237477|[tmco]|["Arrest"-tx-11-"arrest"-noun-0]|TX|1442/6|
+00000000|MMI|3.57|Chairperson|C1524106|[prog]|["Chair"-tx-80-"chair"-noun-0]|TX|4416/5|
+00000000|MMI|3.57|Chairs|C0179847|[mnob]|["Chair"-tx-80-"chair"-noun-0]|TX|4416/5|
+00000000|MMI|3.57|Degree or extent|C0449286|[qnco]|["degrees"-tx-11-"degrees"-noun-0]|TX|1347/7|
+00000000|MMI|3.57|Law enforcement arrest|C0392351|[gora]|["arrest"-tx-11-"arrest"-noun-0]|TX|1442/6|
+00000000|MMI|3.57|Seating|C1283233|[mnob]|["seated"-tx-80-"seated"-verb-0]|TX|4404/6|
+00000000|MMI|3.57|Sitting position|C0277814|[fndg]|["Seated"-tx-80-"seated"-verb-0]|TX|4404/6|
+00000000|MMI|3.57|criteria|C0243161|[inpr]|["Criteria"-tx-35-"criteria"-noun-0]|TX|2826/8|
+00000000|MMI|3.56|Accepted|C1272684|[qlco]|["Accepted"-tx-36-"accepted"-verb-0]|TX|2901/8|
+00000000|MMI|3.56|Ejection as a Circumstance of Injury|C0302131|[phpr]|["Ejection"-tx-7-"ejection"-noun-0]|TX|833/8|
+00000000|MMI|3.56|Ejection as a Sports activity|C0336969|[dora]|["Ejection"-tx-7-"ejection"-noun-0]|TX|833/8|
+00000000|MMI|3.56|Ejection time|C0812388|[orga]|["ejection"-tx-7-"ejection"-noun-0]|TX|833/8|
+00000000|MMI|3.56|Extrinsic|C0205101|[spco]|["Outside"-tx-5-"outside"-adj-0]|TX|491/7|
+00000000|MMI|3.56|Leiostomus xanthurus|C0329155|[fish]|["Spot"-tx-10-"spot"-noun-0]|TX|1299/4|
+00000000|MMI|3.56|One|C0205447|[qnco]|["ONE"-tx-78-"one"-noun-0]|TX|4180/3|
+00000000|MMI|3.56|Part of|C1292711|[spco]|["Part of"-tx-13-"part of"-noun-0]|TX|1564/7|
+00000000|MMI|3.56|Presentation|C0449450|[idcn]|["Presented"-tx-5-"presented"-verb-0]|TX|475/9|
+00000000|MMI|3.56|Referral status - Accepted|C1548435|[idcn]|["Accepted"-tx-36-"accepted"-verb-0]|TX|2901/8|
+00000000|MMI|3.56|Serum calcium below normal (finding)|C3665624|[lbtr]|["Hypocalcemia"-tx-4-"hypocalcemia"-noun-0]|TX|392/12|
+00000000|MMI|3.56|Spot (mark)|C1705203|[cnce]|["Spot"-tx-10-"spot"-noun-0]|TX|1299/4|
+00000000|MMI|3.56|THEMIS gene|C1427618|[gngm]|["SPOT"-tx-10-"spot"-noun-0]|TX|1299/4|
+00000000|MMI|3.56|Taken|C1883727|[cnce]|["Taken"-tx-8-"taken"-verb-0]|TX|920/5|
+00000000|MMI|3.55|Drop measurement|C1321095|[qnco]|["X4"-tx-8-"x4"-noun-0]|TX|992/2|
+00000000|MMI|3.55|X4|C3854162|[fndg]|["X4"-tx-8-"x4"-noun-0]|TX|992/2|
+00000000|MMI|3.55|XPR1 gene|C1421546|[gngm]|["X3"-tx-3-"x3"-noun-0]|TX|317/2|
+00000000|MMI|3.55|dictated - DocumentCompletion|C1609990|[idcn]|["Dictated"-tx-82-"Dictated"-noun-0]|TX|4610/8|
+00000000|MMI|3.55|dictated - ParticipationMode|C1548384|[ftcn]|["dictated"-tx-82-"Dictated"-noun-0]|TX|4610/8|
+00000000|MMI|3.54|Male Gender, Self Report|C1706180|[qlco]|["Male"-tx-3-"male"-noun-0]|TX|212/4|
+00000000|MMI|3.54|Male Phenotype|C1706428|[qlco]|["Male"-tx-3-"male"-noun-0]|TX|212/4|
+00000000|MMI|3.54|Male, Self-Reported|C1706429|[orga]|["Male"-tx-3-"male"-noun-0]|TX|212/4|
+00000000|MMI|3.54|Cool|C1548792|[qlco]|["Cool"-tx-11-"cooled"-verb-0]|TX|1334/6|
+00000000|MMI|3.51|Readiness|C1318963|[fndg]|["Readiness"-tx-8-"ready"-adj-0]|TX|900/5|
+00000000|MMI|3.50|Auto|C1441488|[lbpr]|["Auto"-tx-30-"auto"-noun-0]|TX|2623/4|
+00000000|MMI|3.50|Cardiovascular System Findings Domain|C3538987|[idcn]|["CV"-tx-80-"CV"-noun-0]|TX|4344/2|
+00000000|MMI|3.50|Increase|C0442805|[ftcn]|["Increased"-tx-22-"increased"-adj-0]|TX|2171/9|
+00000000|MMI|3.50|Increased|C0205217|[qnco]|["Increased"-tx-22-"increased"-adj-0]|TX|2171/9|
+00000000|MMI|3.50|Six|C0205452|[qnco]|["Six"-tx-77-"six"-word_numeral-0]|TX|4134/3|
+00000000|MMI|3.50|Time (foundation metadata concept)|C3541383|[tmco]|["Time"-tx-37-"time"-noun-0]|TX|2931/4|
+00000000|MMI|3.49|Ibuprofen 600 MG|C0986667|[clnd]|["Ibuprofen 600 MG"-tx-59-"Ibuprofen 600 mg"-noun-0]|TX|3668/13,3686/2|
+00000000|MMI|3.49|Ibuprofen 800 MG|C0986668|[clnd]|["Ibuprofen 800 MG"-tx-59-"Ibuprofen 800 mg"-noun-0]|TX|3668/9,3682/6|
+00000000|MMI|3.48|Acetaminophen 650 MG|C0982960|[clnd]|["Acetaminophen 650 MG"-tx-47-"Tylenol 650 mg"-noun-0]|TX|3422/14|
+00000000|MMI|3.48|Calcified (qualifier)|C0175895|[qlco]|["Calcified"-tx-9-"calcified"-adj-0]|TX|1231/9|
+00000000|MMI|3.48|Calcified Medical Device Material|C1879982|[phpr]|["Calcified"-tx-9-"calcified"-adj-0]|TX|1231/9|
+00000000|MMI|3.48|Calcified Specimen|C2698950|[qlco]|["CALCIFIED"-tx-9-"calcified"-adj-0]|TX|1231/9|
+00000000|MMI|3.48|Circumpennate|C0920847|[cnce]|["Radial"-tx-13-"radial"-adj-0]|TX|1518/6|
+00000000|MMI|3.48|Distal|C0205108|[spco]|["DISTAL"-tx-9-"distal"-adj-0]|TX|1241/6|
+00000000|MMI|3.48|Immediate|C0205253|[tmco]|["Immediate"-tx-14-"Immediate"-adj-0]|TX|1610/9|
+00000000|MMI|3.48|Laboratory domain|C3244292|[ftcn]|["laboratory"-tx-40-"laboratory"-noun-0]|TX|3046/10|
+00000000|MMI|3.48|Local|C0205276|[spco]|["LOCAL"-tx-80-"Local"-adj-0]|TX|4290/5|
+00000000|MMI|3.48|Primary|C0205225|[qlco]|["Principal"-tx-2-"PRINCIPAL"-adj-0]|TX|112/9|
+00000000|MMI|3.48|Radial|C0442038|[cnce]|["Radial"-tx-13-"radial"-adj-0]|TX|1518/6|
+00000000|MMI|3.48|Satisfactory - Patient Condition Code|C1547307|[inpr]|["Satisfactory"-tx-43-"satisfactory"-adj-0]|TX|3276/12|
+00000000|MMI|3.48|Stat (do immediately)|C0205548|[tmco]|["Immediate"-tx-14-"Immediate"-adj-0]|TX|1610/9|
+00000000|MMI|3.48|Sufficient|C0205410|[qlco]|["Satisfactory"-tx-43-"satisfactory"-adj-0]|TX|3276/12|
+00000000|MMI|3.48|Teaching principal|C0401925|[prog]|["Principal"-tx-2-"PRINCIPAL"-adj-0]|TX|112/9|
+00000000|MMI|3.48|subscriber - self|C1551994|[inpr]|["self"-tx-23-"self"-noun-0]|TX|2214/4|
+00000000|MMI|3.47|100%|C3817553|[qnco]|["100%"-tx-7-"100"-percentage-0]|TX|806/3|
+00000000|MMI|3.47|80%|C3842583|[fndg]|["80%"-tx-7-"80"-percentage-0]|TX|747/2|
+00000000|MMI|3.47|Circumflex|C1880089|[spco]|["Circumflex"-tx-7-"circumflex"-noun-0]|TX|786/10|
+00000000|MMI|3.46|Total thyroidectomy (procedure)|C0193788|[topp]|["Total Thyroidectomy"-tx-4-"total thyroidectomy"-noun-0]|TX|417/19|
+00000000|MMI|3.46|Graft to distal anastomosis|C1264697|[bodm]|["Graft to distal anastomosis"-tx-11-"distal to graft anastomosis"-noun-0]|TX|1363/6,1374/2,1396/17|
+00000000|MMI|3.46|Identifier|C0600091|[inpr]|["ID"-tx-82-"ID"-noun-0]|TX|4686/2|
+00000000|MMI|3.46|Immune diffusion|C1441613|[lbpr]|["ID"-tx-82-"ID"-noun-0]|TX|4686/2|
+00000000|MMI|3.46|Two|C0205448|[qnco]|["Two"-tx-69-"two"-noun-0]|TX|3904/3|
+00000000|MMI|3.45|50%|C3842586|[fndg]|["50%"-tx-63-"50"-integer-0]|TX|3767/2|
+00000000|MMI|3.45|<50|C3843766|[fndg]|["<50"-tx-63-"50"-integer-0]|TX|3767/2|
+00000000|MMI|3.45|Climbing|C2584300|[dora]|["Climb"-tx-16-"climb"-noun-0]|TX|1845/5|
+00000000|MMI|3.45|Does climb|C0561942|[fndg]|["climb"-tx-16-"climb"-noun-0]|TX|1845/5|
+00000000|MMI|3.45|Hypertension Adverse Event|C1963138|[fndg]|["Hypertension"-tx-18-"hypertension"-noun-0]|TX|1977/12|
+00000000|MMI|3.45|Post percutaneous transluminal coronary angioplasty|C1269832|[fndg]|["Post PTCA"-tx-3-"post PTCA"-noun-0]|TX|296/9|
+00000000|MMI|3.44|H/O: hypertension|C0455527|[fndg]|["History of - hypertension"-tx-3-"history of hypertension"-noun-0]|TX|224/23|
+00000000|MMI|3.44|Allopathic & Osteopathic Physicians - Surgery|C3853799|[prog]|["Surgery"-tx-8-"surgery"-noun-0]|TX|910/7|
+00000000|MMI|3.44|Operative Surgical Procedures|C0543467|[hlca]|["Surgery"-tx-8-"surgery"-noun-0]|TX|910/7|E04
+00000000|MMI|3.44|Surgery specialty|C0038894|[bmod]|["Surgery"-tx-8-"surgery"-noun-0]|TX|910/7|
+00000000|MMI|3.43|Great saphenous vein structure|C0392907|[bpoc]|["saphenous vein"-tx-11-"saphenous vein"-noun-0]|TX|1381/14|
+00000000|MMI|3.43|Cannula device|C0520453|[medd]|["cannulae"-tx-10-"cannulae"-noun-0]|TX|1307/8|
+00000000|MMI|3.43|MICROCEPHALY, EPILEPSY, AND DIABETES SYNDROME|C3280240|[dsyn]|["MEDS"-tx-31-"meds"-noun-0]|TX|2671/4|
+00000000|MMI|3.43|SHORT STATURE, ONYCHODYSPLASIA, FACIAL DYSMORPHISM, AND HYPOTRICHOSIS SYNDROME|C3542022|[dsyn]|["SOFT"-tx-10-"soft"-adj-0]|TX|1294/4|
+00000000|MMI|3.43|Soft|C0205358|[qlco]|["Soft"-tx-10-"soft"-adj-0]|TX|1294/4|
+00000000|MMI|3.43|Lima|C1047251|[euka]|["Lima"-tx-8-"LIMA"-noun-0]|TX|1002/4|
+00000000|MMI|3.43|Docusate Sodium 100 MG|C3153447|[clnd]|["Docusate Sodium 100 MG"-tx-57-"Colace 100 mg"-noun-0]|TX|3610/13|
+00000000|MMI|3.42|Entire vein|C1278960|[bpoc]|["Vein"-tx-11-"vein"-noun-0]|TX|1391/4|
+00000000|MMI|3.42|68|C0450387|[inpr]|["68"-tx-3-"68"-integer-0]|TX|200/2|
+00000000|MMI|3.42|Old|C0580836|[tmco
